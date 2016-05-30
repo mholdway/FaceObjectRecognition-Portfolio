@@ -1,6 +1,3 @@
----
-output: word_document
----
 # Face and Object Recognition Online Materials
 
 ### Melisa Holdway and Brandy Bishop
