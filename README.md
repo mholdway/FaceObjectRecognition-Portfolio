@@ -1,6 +1,3 @@
----
-output: word_document
----
 ## Face and Object Recognition Directory Contents
 
 ### Melisa Holdway and Brandy Bishop

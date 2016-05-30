@@ -4,8 +4,9 @@ author: "Melisa Holdway and Brandy Bishop"
 date: "May 28, 2016"
 output: word_document
 ---
+
 ```{r}
-dat=read.csv("Recognition Data.csv")
+dat=read.csv("RecognitionData.csv")
 ```
 ```{r}
 str(dat)
@@ -28,7 +29,7 @@ mean(dat$Scores[dat$Condition=="Object"])
 sd(dat$Scores[dat$Condition=="Face"])
 sd(dat$Scores[dat$Condition=="Object"])
 ```
-
+```
 ```{r}
 library(ggplot2)
 library(gplots)
