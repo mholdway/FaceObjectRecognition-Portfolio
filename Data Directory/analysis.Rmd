@@ -1,9 +1,8 @@
----
-title: "Face and Object Recognition"
-author: "Melisa Holdway and Brandy Bishop"
-date: "May 28, 2016"
-output: word_document
----
+#Face and Object Recognition Data Analysis
+##Melisa Holdway and Brandy Bishop
+###Eastern Oregon University
+
+####Analysis
 
 ```{r}
 dat=read.csv("RecognitionData.csv")
@@ -29,7 +28,9 @@ mean(dat$Scores[dat$Condition=="Object"])
 sd(dat$Scores[dat$Condition=="Face"])
 sd(dat$Scores[dat$Condition=="Object"])
 ```
-```
+
+####Figure
+
 ```{r}
 library(ggplot2)
 library(gplots)

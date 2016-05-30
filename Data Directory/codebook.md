@@ -1,6 +1,3 @@
----
-output: word_document
----
 # Face and Object Recognition Variables
 
 ### Melisa Holdway and Brandy Bishop
